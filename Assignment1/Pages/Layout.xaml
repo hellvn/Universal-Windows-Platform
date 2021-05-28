@@ -13,8 +13,9 @@
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="Home" Content="Home" x:Name="Home" />
                 <NavigationViewItem Icon="Emoji" Content="Eat-In" x:Name="EatIn" />
+                <NavigationViewItem Icon="AllApps" Content="Collection" x:Name="Collection" />
                 <NavigationViewItem Icon="Bullets" Content="Delivery" x:Name="Delivery" />
-                <NavigationViewItem Icon="Accept" Content="Take Away" x:Name="TakeAway"/>
+                <NavigationViewItem Icon="Shop" Content="Take Away" x:Name="TakeAway"/>
                 <NavigationViewItem Icon="OpenPane" Content="Driver Payment" x:Name="Payment"/>
                 <NavigationViewItem Icon="Contact" Content="Customers" x:Name="Customers"/>
             </NavigationView.MenuItems>

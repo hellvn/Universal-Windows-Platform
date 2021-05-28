@@ -13,10 +13,11 @@
             <NavigationView.MenuItems>
                 <NavigationViewItem x:ConnectionId='3' Icon="Home" Content="Home" x:Name="Home" />
                 <NavigationViewItem x:ConnectionId='4' Icon="Emoji" Content="Eat-In" x:Name="EatIn" />
-                <NavigationViewItem x:ConnectionId='5' Icon="Bullets" Content="Delivery" x:Name="Delivery" />
-                <NavigationViewItem x:ConnectionId='6' Icon="Accept" Content="Take Away" x:Name="TakeAway"/>
-                <NavigationViewItem x:ConnectionId='7' Icon="OpenPane" Content="Driver Payment" x:Name="Payment"/>
-                <NavigationViewItem x:ConnectionId='8' Icon="Contact" Content="Customers" x:Name="Customers"/>
+                <NavigationViewItem x:ConnectionId='5' Icon="AllApps" Content="Collection" x:Name="Collection" />
+                <NavigationViewItem x:ConnectionId='6' Icon="Bullets" Content="Delivery" x:Name="Delivery" />
+                <NavigationViewItem x:ConnectionId='7' Icon="Shop" Content="Take Away" x:Name="TakeAway"/>
+                <NavigationViewItem x:ConnectionId='8' Icon="OpenPane" Content="Driver Payment" x:Name="Payment"/>
+                <NavigationViewItem x:ConnectionId='9' Icon="Contact" Content="Customers" x:Name="Customers"/>
             </NavigationView.MenuItems>
         </NavigationView>
 
@@ -24,7 +25,7 @@
             <VisualStateGroup>
                 <VisualState>
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger x:ConnectionId='9'
+                        <AdaptiveTrigger x:ConnectionId='10'
                                                                                                   />
                     </VisualState.StateTriggers>
 

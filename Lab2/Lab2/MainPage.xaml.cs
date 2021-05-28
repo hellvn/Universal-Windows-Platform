@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Lab2.Models;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -25,6 +26,17 @@ namespace Lab2
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Email email = new Email(EmailAddress, Title, Content);
+            ListEmail.Items.Add(email);
+        }
+
+        private void ListEmail_Loaded(object sender, RoutedEventArgs e)
+        {
+  
         }
     }
 }

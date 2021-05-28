@@ -1,0 +1,39 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="Assignment1.Pages.Layout"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Assignment1.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView x:ConnectionId='2' x:Name="NavigationViewControl">
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:ConnectionId='3' Icon="Home" Content="Home" x:Name="Home" />
+                <NavigationViewItem x:ConnectionId='4' Icon="Emoji" Content="Eat-In" x:Name="EatIn" />
+                <NavigationViewItem x:ConnectionId='5' Icon="Bullets" Content="Delivery" x:Name="Delivery" />
+                <NavigationViewItem x:ConnectionId='6' Icon="Accept" Content="Take Away" x:Name="TakeAway"/>
+                <NavigationViewItem x:ConnectionId='7' Icon="OpenPane" Content="Driver Payment" x:Name="Payment"/>
+                <NavigationViewItem x:ConnectionId='8' Icon="Contact" Content="Customers" x:Name="Customers"/>
+            </NavigationView.MenuItems>
+        </NavigationView>
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup>
+                <VisualState>
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger x:ConnectionId='9'
+                                                                                                  />
+                    </VisualState.StateTriggers>
+
+                    <VisualState.Setters>
+                        <Setter Target="NavigationViewControl.PaneDisplayMode" Value="LeftCompact"/>
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+    </Grid>
+</Page>
+

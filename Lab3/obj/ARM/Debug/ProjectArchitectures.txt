@@ -1,0 +1,1 @@
+D:\UWP\Universal-Windows-Platform\Lab3\Lab3.csproj;arm

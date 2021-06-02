@@ -28,6 +28,9 @@
     <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\Assignment1.exe">
       <PackagePath>entrypoint\Assignment1.exe</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vuong\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
     </AppxPackagedFile>
@@ -73,8 +76,29 @@
     <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\Pages\Collection.xbf">
+      <PackagePath>Pages\Collection.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\Pages\Customers.xbf">
+      <PackagePath>Pages\Customers.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\Pages\Delivery.xbf">
+      <PackagePath>Pages\Delivery.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\Pages\Eat-In.xbf">
+      <PackagePath>Pages\Eat-In.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\Pages\Home.xbf">
+      <PackagePath>Pages\Home.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\Pages\Payment.xbf">
+      <PackagePath>Pages\Payment.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\Universal Windows Platform\Assignment1\bin\x86\Debug\Pages\Take-Away.xbf">
+      <PackagePath>Pages\Take-Away.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

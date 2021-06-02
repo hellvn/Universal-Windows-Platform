@@ -3,37 +3,35 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Assignment1.Pages"
+    xmlns:models ="using:Assignment1.Models"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <NavigationView x:Name="NavigationViewControl">
-            <NavigationView.MenuItems>
-                <NavigationViewItem Icon="Home" Content="Home" x:Name="Home" />
-                <NavigationViewItem Icon="Emoji" Content="Eat-In" x:Name="EatIn" />
-                <NavigationViewItem Icon="AllApps" Content="Collection" x:Name="Collection" />
-                <NavigationViewItem Icon="Bullets" Content="Delivery" x:Name="Delivery" />
-                <NavigationViewItem Icon="Shop" Content="Take Away" x:Name="TakeAway"/>
-                <NavigationViewItem Icon="OpenPane" Content="Driver Payment" x:Name="Payment"/>
-                <NavigationViewItem Icon="Contact" Content="Customers" x:Name="Customers"/>
-            </NavigationView.MenuItems>
-        </NavigationView>
-
-        <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup>
-                <VisualState>
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger
-                        MinWindowWidth="{x:Bind NavigationViewControl.CompactModeThresholdWidth}" />
-                    </VisualState.StateTriggers>
-
-                    <VisualState.Setters>
-                        <Setter Target="NavigationViewControl.PaneDisplayMode" Value="LeftCompact"/>
-                    </VisualState.Setters>
-                </VisualState>
-            </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
-    </Grid>
+    <SplitView x:Name="NaviTab" OpenPaneLength="200" HorizontalAlignment="Left" DisplayMode="CompactInline" IsPaneOpen="True">
+        <SplitView.Pane>
+            <Grid>
+                <ListView x:Name="MN" Margin="0,40,0,0" Loaded="Menu_Loaded">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="models:MenuItem">
+                            <ListViewItem Tapped="ListViewItem_Tapped" BorderBrush="{ThemeResource SystemControlBackgroundListMediumRevealBorderBrush}" FocusVisualPrimaryThickness="2" FocusVisualSecondaryThickness="0" FocusVisualMargin="-2" FocusVisualPrimaryBrush="{StaticResource SystemControlFocusVisualPrimaryBrush}" FocusVisualSecondaryBrush="{StaticResource SystemControlFocusVisualSecondaryBrush}" >
+                                <RelativePanel  Margin="10">
+                                    <SymbolIcon x:Name="icon" Symbol="{x:Bind Icon}" Margin="0,10,0,0"/>
+                                    <TextBlock RelativePanel.RightOf="icon" Margin="10" Text="{x:Bind Name}"/>
+                                </RelativePanel>
+                            </ListViewItem>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </SplitView.Pane>
+        <SplitView.Content>
+                <ScrollViewer Padding="10,100,0,0" ZoomMode="Enabled"
+                IsTabStop="True" IsVerticalScrollChainingEnabled="True"
+                VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Hidden">
+                    <Frame x:Name="MainFrame"/>
+                </ScrollViewer>
+        </SplitView.Content>
+    </SplitView>
 </Page>

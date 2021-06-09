@@ -27,9 +27,10 @@
             </Grid>
         </SplitView.Pane>
         <SplitView.Content>
+            
                 <ScrollViewer Padding="10,100,0,0" ZoomMode="Enabled"
                 IsTabStop="True" IsVerticalScrollChainingEnabled="True"
-                VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Visible">
+                VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Hidden">
                     <Frame x:ConnectionId='8' x:Name="MainFrame"/>
                 </ScrollViewer>
         </SplitView.Content>

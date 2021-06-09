@@ -10,20 +10,32 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <ListView x:Name="MenuItems">
-            <ListView.ItemTemplate>
+        <GridView x:Name="HomeItems">
+            <GridView.ItemTemplate>
                 <DataTemplate x:DataType="models:HomeItem">
-                    <ListViewItem>
-                        <RelativePanel>
-                            <Image x:Name="imgIcon" Source="{x:Bind image}" Width="200" Height="200" Margin="10"/>
-                            <TextBlock x:Name="Title" RelativePanel.RightOf="imgIcon" Text="{x:Bind name}" Margin="20" FontSize="24"/>
-                            <TextBlock x:Name="Price" RelativePanel.Below="imgIcon" Text="{x:Bind price}" Margin="10" FontSize="24"/>
-                            <TextBlock x:Name="Content" RelativePanel.Below="Title" Text="{x:Bind description}" Margin="10" FontSize="14"/>
-                            <Button x:Name="ReadMore" Content="Read More" HorizontalAlignment="Right" VerticalAlignment="Bottom"/>
-                        </RelativePanel>
-                    </ListViewItem>
+                    <Grid AutomationProperties.Name = '{x:Bind id}' Width = '350'>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width = 'Auto'/>
+                            <ColumnDefinition Width = '*'/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source = '{x:Bind image}' Height = '100' Stretch = 'UniformToFill' VerticalAlignment = 'Top'/>
+                        <StackPanel Grid.Column = '1' Margin = '8,0,0,8'>
+                            <TextBlock Text = '{x:Bind name}' TextTrimming="WordEllipsis" Style = '{ThemeResource SubtitleTextBlockStyle}' Margin = '0,0,0,8'/>
+                            <StackPanel Orientation = 'Horizontal'>
+                                <TextBlock Text = '{x:Bind description}' TextTrimming="WordEllipsis" Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                            </StackPanel>
+                            <StackPanel Orientation = 'Horizontal' Name="Price">
+                                <TextBlock Text = '{x:Bind price}' Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                <TextBlock Text = '$' Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                
+                            </StackPanel>
+                            <StackPanel>
+                            <Button x:Name="ReadMore" Content="Read More" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,20,10,0"  Click="ReadMore_Click"/>
+                                </StackPanel>
+                        </StackPanel>
+                    </Grid>
                 </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+            </GridView.ItemTemplate>
+        </GridView>
     </Grid>
 </Page>

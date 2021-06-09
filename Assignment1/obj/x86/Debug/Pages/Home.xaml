@@ -10,20 +10,33 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <ListView x:ConnectionId='2' x:Name="HomeItems">
-            <ListView.ItemTemplate>
+        <GridView x:ConnectionId='2' x:Name="HomeItems">
+            <GridView.ItemTemplate>
                 <DataTemplate                             >
-                    <ListViewItem x:ConnectionId='4'>
-                        <RelativePanel>
-                            
-                            <Image x:ConnectionId='5' x:Name="imgIcon"                         Width="50" Height="50" Margin="10"/>
-                            <TextBlock x:ConnectionId='6' RelativePanel.Above="imgIcon"                      Margin="20" FontSize="24"/>
-                            
-                        </RelativePanel>
-                    </ListViewItem>
+                    <Grid x:ConnectionId='4'                                             Width = '300'>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width = 'Auto'/>
+                            <ColumnDefinition Width = '*'/>
+                        </Grid.ColumnDefinitions>
+                        <Image x:ConnectionId='5'                           Height = '100' Stretch = 'UniformToFill' VerticalAlignment = 'Top'/>
+                        <StackPanel Grid.Column = '1' Margin = '8,0,0,8'>
+                            <TextBlock x:ConnectionId='6'                        TextTrimming="WordEllipsis" Style = '{ThemeResource SubtitleTextBlockStyle}' Margin = '0,0,0,8'/>
+                            <StackPanel Orientation = 'Horizontal'>
+                                <TextBlock x:ConnectionId='10'                               TextTrimming="WordEllipsis" Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                            </StackPanel>
+                            <StackPanel Orientation = 'Horizontal' Name="Price">
+                                <TextBlock x:ConnectionId='9'                         Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                <TextBlock Text = '$' Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                
+                            </StackPanel>
+                            <StackPanel>
+                            <Button x:Name="ReadMore" Content="Read More" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,20,10,0" />
+                                </StackPanel>
+                        </StackPanel>
+                    </Grid>
                 </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+            </GridView.ItemTemplate>
+        </GridView>
     </Grid>
 </Page>
 

@@ -27,6 +27,7 @@
             </Grid>
         </SplitView.Pane>
         <SplitView.Content>
+            
                 <ScrollViewer Padding="10,100,0,0" ZoomMode="Enabled"
                 IsTabStop="True" IsVerticalScrollChainingEnabled="True"
                 VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Hidden">

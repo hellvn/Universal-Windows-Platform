@@ -39,5 +39,10 @@ namespace Assignment1.Pages
                 HomeItems.ItemsSource = home.data;
             }
         }
+
+        private void ReadMore_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -42,7 +42,7 @@ namespace Assignment1.Pages
 
         private void ReadMore_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
     }
 }

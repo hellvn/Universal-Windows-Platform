@@ -12,6 +12,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Assignment1.Models;
+using Assignment1.Services;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -25,6 +27,18 @@ namespace Assignment1.Pages
         public Delivery()
         {
             this.InitializeComponent();
+
+            GetDetail();
+        }
+
+        public async void GetDetail()
+        {
+            DetailServices services = new DetailServices();
+            Models.Detail detail = await services.GetDetail();
+            if(detail != null)
+            {
+                Itemdetail.ItemsSource = detail.data;
+            }
         }
     }
 }

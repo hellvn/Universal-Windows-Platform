@@ -117,12 +117,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Adapters\Adapter.cs" />
+    <Compile Include="Adapters\SQLiteHelper.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Detail.cs" />
     <Compile Include="Models\Home.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Pages\Collection.xaml.cs">
@@ -150,6 +152,7 @@
       <DependentUpon>Take-Away.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\DetailServices.cs" />
     <Compile Include="Services\HomeServices.cs" />
   </ItemGroup>
   <ItemGroup>

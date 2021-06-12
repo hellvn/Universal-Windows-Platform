@@ -27,7 +27,7 @@
                             <StackPanel Orientation = 'Horizontal'>
                                 <TextBlock Text = '{x:Bind price}' FontSize="24" Style = '{ThemeResource CaptionTextBlockStyle}'/>
                                 <TextBlock Text = '$' FontSize="24" Style = '{ThemeResource CaptionTextBlockStyle}'/>
-                                <Button Background="#FFFEAD00" Style="{StaticResource ButtonRevealStyle}" Margin="20,0,0,0" Content="Read More" />
+                                <Button Click="Button_Click" Background="#FFFEAD00" Style="{StaticResource ButtonRevealStyle}" Margin="20,0,0,0" Content="Read More" />
                             </StackPanel>
                         </StackPanel>
                     </Grid>

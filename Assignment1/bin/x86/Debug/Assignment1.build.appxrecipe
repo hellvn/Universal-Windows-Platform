@@ -124,6 +124,9 @@
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Delivery.xbf">
       <PackagePath>Pages\Delivery.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Detail.xbf">
+      <PackagePath>Pages\Detail.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Eat-In.xbf">
       <PackagePath>Pages\Eat-In.xbf</PackagePath>
     </AppxPackagedFile>

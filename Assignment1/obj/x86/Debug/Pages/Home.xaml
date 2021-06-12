@@ -22,12 +22,12 @@
                         <StackPanel Grid.Column = '1' Margin = '8,0,0,8'>
                             <TextBlock x:ConnectionId='6'                        TextTrimming="WordEllipsis" Height="100" Style = '{ThemeResource SubtitleTextBlockStyle}' Margin = '0,0,0,8'/>
                             <StackPanel Orientation = 'Horizontal' Height="40">
-                                <TextBlock x:ConnectionId='8'                               TextTrimming="WordEllipsis" Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                <TextBlock x:ConnectionId='9'                               TextTrimming="WordEllipsis" Style = '{ThemeResource CaptionTextBlockStyle}'/>
                             </StackPanel>
                             <StackPanel Orientation = 'Horizontal'>
                                 <TextBlock x:ConnectionId='7'                         FontSize="24" Style = '{ThemeResource CaptionTextBlockStyle}'/>
                                 <TextBlock Text = '$' FontSize="24" Style = '{ThemeResource CaptionTextBlockStyle}'/>
-                                <Button Background="#FFFEAD00" Style="{StaticResource ButtonRevealStyle}" Margin="20,0,0,0" Content="Read More" />
+                                <Button x:ConnectionId='8'                      Background="#FFFEAD00" Style="{StaticResource ButtonRevealStyle}" Margin="20,0,0,0" Content="Read More" />
                             </StackPanel>
                         </StackPanel>
                     </Grid>

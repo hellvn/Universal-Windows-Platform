@@ -36,7 +36,7 @@ namespace Assignment1.Adapters
 
         public string GetDetailApi
         {
-            get => String.Format(baseURL + "/api/food/");
+            get => String.Format(baseURL + "/api/food/1");
         }
     }
 }

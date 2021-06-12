@@ -22,28 +22,24 @@ namespace Assignment1.Pages
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class Home : Page
+    public sealed partial class Detail : Page
     {
-        public Home()
+        public Detail()
         {
             this.InitializeComponent();
 
-            GetHome();
-        }
-        public async void GetHome()
-        {
-            HomeServices services = new HomeServices();
-            Models.Home home = await services.GetHome();
-            if(home != null)
-            {
-                HomeItems.ItemsSource = home.data;
-            }
+            GetDetail();
         }
 
-        
-        private void Button_Click(object sender, RoutedEventArgs e)
+        public async void GetDetail()
         {
-            this.Frame.Navigate(typeof(Pages.Detail));
+            
+            DetailServices services = new DetailServices();
+            Models.Detail detail = await services.GetDetail();
+            if(detail != null)
+            {
+                FoodDetail.ItemsSource = detail.data;
+            }
         }
     }
 }

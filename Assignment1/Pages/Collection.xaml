@@ -9,18 +9,22 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <GridView x:Name="CatItem" >
+
+
+   
+        
+
+    <GridView x:Name="CatItem" Margin="0,20,0,0" >
         <GridView.ItemTemplate>
             <DataTemplate x:DataType="models:CatData">
-                <GridViewItem AutomationProperties.Name="{x:Bind category.id}">
-                    <Grid  Width = '200' Margin="10">
+                <GridViewItem AutomationProperties.Name="{x:Bind category.id}" Tapped="GridViewItem_Tapped">
+                    <Grid  Width = '300' Margin="10">
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <RelativePanel>
-                            <TextBlock x:Name="CatName" Text = '{x:Bind category.name}' TextTrimming="WordEllipsis" Style = '{ThemeResource SubtitleTextBlockStyle}' Margin = '0,20,0,8'/>
-                            <Image RelativePanel.Below="CatName" x:Name="icon" Source = '{x:Bind category.icon}' Height = '200' VerticalAlignment = 'Top'/>
-                            <Button RelativePanel.Below="icon" Background="#FFFEAD00" Style="{StaticResource ButtonRevealStyle}" Margin="0,0,0,20" Content="Read More" />
+                            <TextBlock x:Name="CatName" Text = '{x:Bind category.name}' FontSize="24" TextTrimming="WordEllipsis" Style = '{ThemeResource SubtitleTextBlockStyle}' Margin = '0,10,0,10'/>
+                            <Image RelativePanel.Below="CatName" x:Name="icon" Source = '{x:Bind category.icon}'  Width="300" VerticalAlignment = 'Top'/>
                         </RelativePanel>
                     </Grid>
                 </GridViewItem>

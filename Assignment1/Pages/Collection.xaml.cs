@@ -54,9 +54,10 @@ namespace Assignment1.Pages
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void GridViewItem_Tapped(object sender, TappedRoutedEventArgs e)
         {
-
+            
+            this.Frame.Navigate(typeof(Pages.Take_Away));
         }
     }
 }

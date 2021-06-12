@@ -177,3 +177,8 @@ D:\UWP\Universal-Windows-Platform\Assignment1\obj\x86\Debug\resources.en.resfile
 D:\UWP\Universal-Windows-Platform\Assignment1\obj\x86\Debug\SQLitePCL.Ext.pri.xml
 D:\UWP\Universal-Windows-Platform\Assignment1\obj\x86\Debug\ProjectArchitectures.txt
 D:\UWP\Universal-Windows-Platform\Assignment1\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Detail.xbf
+D:\UWP\Universal-Windows-Platform\Assignment1\obj\x86\Debug\Pages\Detail.g.i.cs
+D:\UWP\Universal-Windows-Platform\Assignment1\obj\x86\Debug\Pages\Detail.g.cs
+D:\UWP\Universal-Windows-Platform\Assignment1\obj\x86\Debug\Pages\Detail.xaml
+D:\UWP\Universal-Windows-Platform\Assignment1\obj\x86\Debug\Pages\Detail.xbf

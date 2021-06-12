@@ -124,6 +124,7 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Detail.cs" />
     <Compile Include="Models\Home.cs" />
     <Compile Include="Models\MenuItem.cs" />
@@ -152,6 +153,7 @@
       <DependentUpon>Take-Away.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CategoryServices.cs" />
     <Compile Include="Services\DetailServices.cs" />
     <Compile Include="Services\HomeServices.cs" />
   </ItemGroup>
@@ -161,6 +163,15 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\clipart1332451.png" />
+    <Content Include="Assets\facebook_32px.png" />
+    <Content Include="Assets\facebook_64px.png" />
+    <Content Include="Assets\help_50px.png" />
+    <Content Include="Assets\instagram_old_32px.png" />
+    <Content Include="Assets\notification_64px.png" />
+    <Content Include="Assets\shutdown_32px.png" />
+    <Content Include="Assets\twitter_24px.png" />
+    <Content Include="Assets\twitter_32px.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

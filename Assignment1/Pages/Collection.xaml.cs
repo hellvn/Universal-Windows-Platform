@@ -14,6 +14,13 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Windows.Foundation.Metadata;
 using Windows.UI.Xaml.Media.Animation;
+using Assignment1.Models;
+using Assignment1.Services;
+using Newtonsoft.Json;
+using System.Net;
+using System.Net.Http;
+
+
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -27,25 +34,29 @@ namespace Assignment1.Pages
         public Collection()
         {
             this.InitializeComponent();
+            GetCategory();
         }
-        public void PrepareConnectedAnimation(ConnectedAnimationConfiguration config)
-        {
-            var anim = ConnectedAnimationService.GetForCurrentView().PrepareToAnimate("ForwardConnectedAnimation", SourceElement);
 
-            if (config != null && ApiInformation.IsApiContractPresent("Windows.Foundation.UniversalApiContract", 7))
+        public async void GetCategory()
+        {
+            List<CatData> catDatas = new List<CatData>();
+            CategoryServices service = new CategoryServices();
+            
+            for (int id = 1; id < 6; id++)
             {
-                anim.Configuration = config;
+                Category category = await service.getCategory(id);
+                if (category != null)
+                {
+                    catDatas.Add(category.data);
+                }
             }
+            CatItem.ItemsSource = catDatas;
+
         }
-        protected override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            base.OnNavigatedTo(e);
 
-            var anim = ConnectedAnimationService.GetForCurrentView().GetAnimation("BackwardConnectedAnimation");
-            if (anim != null)
-            {
-                anim.TryStart(SourceElement);
-            }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

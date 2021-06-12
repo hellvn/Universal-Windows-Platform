@@ -13,7 +13,7 @@
         <GridView x:Name="HomeItems">
             <GridView.ItemTemplate>
                 <DataTemplate x:DataType="models:HomeItem">
-                    <Grid AutomationProperties.Name = '{x:Bind id}' Width = '500' Margin="20">
+                    <Grid AutomationProperties.Name = '{x:Bind id}' Width = '500' Margin="10">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width = 'Auto'/>
                             <ColumnDefinition Width = '*'/>
@@ -25,9 +25,9 @@
                                 <TextBlock Text = '{x:Bind description}' TextTrimming="WordEllipsis" Style = '{ThemeResource CaptionTextBlockStyle}'/>
                             </StackPanel>
                             <StackPanel Orientation = 'Horizontal'>
-                                <TextBlock Text = '{x:Bind price}' Style = '{ThemeResource CaptionTextBlockStyle}'/>
-                                <TextBlock Text = '$' Style = '{ThemeResource CaptionTextBlockStyle}'/>
-                                <Button x:Name="ReadMore" Content="Read More" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="80,20,10,0"  Click="ReadMore_Click"/>
+                                <TextBlock Text = '{x:Bind price}' FontSize="24" Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                <TextBlock Text = '$' FontSize="24" Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                <Button Background="#FFFEAD00" Style="{StaticResource ButtonRevealStyle}" Margin="20,0,0,0" Content="Read More" />
                             </StackPanel>
                         </StackPanel>
                     </Grid>

@@ -13,7 +13,7 @@
         <GridView x:ConnectionId='2' x:Name="HomeItems">
             <GridView.ItemTemplate>
                 <DataTemplate                             >
-                    <Grid x:ConnectionId='4'                                           Width = '500' Margin="20">
+                    <Grid x:ConnectionId='4'                                           Width = '500' Margin="10">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width = 'Auto'/>
                             <ColumnDefinition Width = '*'/>
@@ -22,15 +22,13 @@
                         <StackPanel Grid.Column = '1' Margin = '8,0,0,8'>
                             <TextBlock x:ConnectionId='6'                        TextTrimming="WordEllipsis" Height="100" Style = '{ThemeResource SubtitleTextBlockStyle}' Margin = '0,0,0,8'/>
                             <StackPanel Orientation = 'Horizontal' Height="40">
-                                <TextBlock x:ConnectionId='9'                               TextTrimming="WordEllipsis" Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                <TextBlock x:ConnectionId='8'                               TextTrimming="WordEllipsis" Style = '{ThemeResource CaptionTextBlockStyle}'/>
                             </StackPanel>
                             <StackPanel Orientation = 'Horizontal'>
-                                
-                                <TextBlock x:ConnectionId='7'                         Style = '{ThemeResource CaptionTextBlockStyle}'/>
-                                <TextBlock Text = '$' Style = '{ThemeResource CaptionTextBlockStyle}'/>
-                                <Button x:ConnectionId='8' x:Name="ReadMore" Content="Read More" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="80,20,10,0"                        />
+                                <TextBlock x:ConnectionId='7'                         FontSize="24" Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                <TextBlock Text = '$' FontSize="24" Style = '{ThemeResource CaptionTextBlockStyle}'/>
+                                <Button Background="#FFFEAD00" Style="{StaticResource ButtonRevealStyle}" Margin="20,0,0,0" Content="Read More" />
                             </StackPanel>
-                            
                         </StackPanel>
                     </Grid>
                 </DataTemplate>

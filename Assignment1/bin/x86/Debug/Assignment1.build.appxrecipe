@@ -46,8 +46,32 @@
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\sqlite3.dll">
       <PackagePath>sqlite3.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\clipart1332451.png">
+      <PackagePath>Assets\clipart1332451.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\facebook_32px.png">
+      <PackagePath>Assets\facebook_32px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\facebook_64px.png">
+      <PackagePath>Assets\facebook_64px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\help_50px.png">
+      <PackagePath>Assets\help_50px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\instagram_old_32px.png">
+      <PackagePath>Assets\instagram_old_32px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\notification_64px.png">
+      <PackagePath>Assets\notification_64px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\shutdown_32px.png">
+      <PackagePath>Assets\shutdown_32px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\twitter_24px.png">
+      <PackagePath>Assets\twitter_24px.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\twitter_32px.png">
+      <PackagePath>Assets\twitter_32px.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -75,6 +99,9 @@
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\sqlite3.def">
       <PackagePath>sqlite3.def</PackagePath>

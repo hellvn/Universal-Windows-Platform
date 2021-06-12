@@ -37,7 +37,7 @@ namespace Assignment1.Pages
             Models.Detail detail = await services.GetDetail();
             if(detail != null)
             {
-                Itemdetail.ItemsSource = detail.data;
+               
             }
         }
     }

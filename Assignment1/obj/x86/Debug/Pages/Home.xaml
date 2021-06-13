@@ -12,7 +12,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <GridView x:ConnectionId='2' x:Name="HomeItems">
             <GridView.ItemTemplate>
-                <DataTemplate                             >
+                <DataTemplate                         >
                     <Grid x:ConnectionId='4'                                           Width = '500' Margin="10">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width = 'Auto'/>

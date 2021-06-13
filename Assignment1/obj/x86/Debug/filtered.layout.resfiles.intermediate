@@ -28,6 +28,9 @@ Pages\Eat-In.xbf
 Pages\Home.xbf
 Pages\Layout.xbf
 Pages\Payment.xbf
+Pages\social\facebook.xbf
+Pages\social\instagram.xbf
+Pages\social\twitter.xbf
 Pages\Take-Away.xbf
 Properties\Default.rd.xml
 sqlite3.def

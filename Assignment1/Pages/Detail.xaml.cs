@@ -27,19 +27,7 @@ namespace Assignment1.Pages
         public Detail()
         {
             this.InitializeComponent();
-
-            GetDetail();
         }
-
-        public async void GetDetail()
-        {
-            
-            DetailServices services = new DetailServices();
-            Models.Detail detail = await services.GetDetail();
-            if(detail != null)
-            {
-                FoodDetail.ItemsSource = detail.data;
-            }
-        }
+        
     }
 }

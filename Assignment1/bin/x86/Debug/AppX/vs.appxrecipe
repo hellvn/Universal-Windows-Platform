@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-12T17:31:24.610</Modified>
+      <Modified>2021-06-13T16:48:33.224</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Assignment1.exe">
       <PackagePath>entrypoint\Assignment1.exe</PackagePath>
-      <Modified>2021-06-12T17:31:23.628</Modified>
+      <Modified>2021-06-13T16:48:31.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\vuong\.nuget\packages\newtonsoft.json\13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -142,51 +142,63 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Assignment1.xr.xml">
       <PackagePath>Assignment1.xr.xml</PackagePath>
-      <Modified>2021-06-12T16:40:18.208</Modified>
+      <Modified>2021-06-13T16:48:31.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.494</Modified>
+      <Modified>2021-06-13T16:48:31.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.494</Modified>
+      <Modified>2021-06-13T16:48:31.579</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Collection.xbf">
       <PackagePath>Pages\Collection.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.495</Modified>
+      <Modified>2021-06-13T16:48:31.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Customers.xbf">
       <PackagePath>Pages\Customers.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.495</Modified>
+      <Modified>2021-06-13T16:48:31.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Delivery.xbf">
       <PackagePath>Pages\Delivery.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.495</Modified>
+      <Modified>2021-06-13T16:48:31.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Detail.xbf">
       <PackagePath>Pages\Detail.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.495</Modified>
+      <Modified>2021-06-13T16:48:31.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Eat-In.xbf">
       <PackagePath>Pages\Eat-In.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.495</Modified>
+      <Modified>2021-06-13T16:48:31.580</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.496</Modified>
+      <Modified>2021-06-13T16:48:31.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Layout.xbf">
       <PackagePath>Pages\Layout.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.492</Modified>
+      <Modified>2021-06-13T16:48:31.572</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Payment.xbf">
       <PackagePath>Pages\Payment.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.496</Modified>
+      <Modified>2021-06-13T16:48:31.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\social\facebook.xbf">
+      <PackagePath>Pages\social\facebook.xbf</PackagePath>
+      <Modified>2021-06-13T16:48:31.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\social\instagram.xbf">
+      <PackagePath>Pages\social\instagram.xbf</PackagePath>
+      <Modified>2021-06-13T16:48:31.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\social\twitter.xbf">
+      <PackagePath>Pages\social\twitter.xbf</PackagePath>
+      <Modified>2021-06-13T16:48:31.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Take-Away.xbf">
       <PackagePath>Pages\Take-Away.xbf</PackagePath>
-      <Modified>2021-06-12T17:31:23.496</Modified>
+      <Modified>2021-06-13T16:48:31.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -194,11 +206,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-12T16:40:18.584</Modified>
+      <Modified>2021-06-13T16:25:41.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Core\Assignment1.exe">
       <PackagePath>Assignment1.exe</PackagePath>
-      <Modified>2021-06-12T17:31:24.603</Modified>
+      <Modified>2021-06-13T16:48:33.214</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

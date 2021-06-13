@@ -12,7 +12,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <GridView x:Name="HomeItems">
             <GridView.ItemTemplate>
-                <DataTemplate x:DataType="models:HomeItem">
+                <DataTemplate x:DataType="models:Food">
                     <Grid AutomationProperties.Name = '{x:Bind id}' Width = '500' Margin="10">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width = 'Auto'/>

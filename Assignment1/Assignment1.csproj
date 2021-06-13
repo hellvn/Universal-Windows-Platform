@@ -124,8 +124,6 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\Category.cs" />
-    <Compile Include="Models\Detail.cs" />
     <Compile Include="Models\Home.cs" />
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="Pages\Collection.xaml.cs">
@@ -151,6 +149,15 @@
     </Compile>
     <Compile Include="Pages\Payment.xaml.cs">
       <DependentUpon>Payment.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\social\facebook.xaml.cs">
+      <DependentUpon>facebook.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\social\instagram.xaml.cs">
+      <DependentUpon>instagram.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\social\twitter.xaml.cs">
+      <DependentUpon>twitter.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Take-Away.xaml.cs">
       <DependentUpon>Take-Away.xaml</DependentUpon>
@@ -224,6 +231,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Payment.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\social\facebook.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\social\instagram.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\social\twitter.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

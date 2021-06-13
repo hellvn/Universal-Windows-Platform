@@ -12,11 +12,11 @@ namespace Assignment1.Services
 {
     class CategoryServices
     {
-        private Adapters.Adapter adapter = Adapters.Adapter.GetAdapter();
+        private Adapters.Adapter _adapter = Adapters.Adapter.GetAdapter();
         public async Task<Category> getCategory(int id)
         {
             HttpClient httpclient = new HttpClient();
-            var response = await httpclient.GetAsync(adapter.GetCategoryApi + id);
+            var response = await httpclient.GetAsync(_adapter.GetCategoryApi + id);
             if(response.StatusCode == HttpStatusCode.OK)
             {
                 var stringcontent = await response.Content.ReadAsStringAsync();

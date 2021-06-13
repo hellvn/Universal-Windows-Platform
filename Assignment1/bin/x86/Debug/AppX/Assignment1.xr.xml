@@ -64,8 +64,8 @@
       <RootProperty Name="Margin" />
       <RootProperty Name="TextWrapping" />
       <RootProperty Name="Foreground" />
-      <RootProperty Name="FontWeight" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontWeight" />
       <RootProperty Name="Height" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontFamily" />
@@ -156,12 +156,19 @@
       <RootProperty Name="Style" />
       <RootProperty Name="Icon" />
       <RootProperty Name="Flyout" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.BitmapIcon">
       <RootProperty Name="UriSource" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Flyout">
       <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyout">
+      <RootProperty Name="Items" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyoutItem">
+      <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="Assignment1.Pages.Layout" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -174,6 +181,12 @@
       <RootProperty Name="Header" />
     </RootType>
     <RootType FullName="Assignment1.Pages.Payment" />
+    <RootType FullName="Windows.UI.Xaml.Controls.WebView">
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Assignment1.Pages.social.facebook" />
+    <RootType FullName="Assignment1.Pages.social.instagram" />
+    <RootType FullName="Assignment1.Pages.social.twitter" />
     <RootType FullName="Assignment1.Pages.Take_Away" />
   </Roots.RootTypes>
 </Roots>

@@ -139,6 +139,15 @@
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Payment.xbf">
       <PackagePath>Pages\Payment.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\social\facebook.xbf">
+      <PackagePath>Pages\social\facebook.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\social\instagram.xbf">
+      <PackagePath>Pages\social\instagram.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\social\twitter.xbf">
+      <PackagePath>Pages\social\twitter.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\UWP\Universal-Windows-Platform\Assignment1\bin\x86\Debug\Pages\Take-Away.xbf">
       <PackagePath>Pages\Take-Away.xbf</PackagePath>
     </AppxPackagedFile>

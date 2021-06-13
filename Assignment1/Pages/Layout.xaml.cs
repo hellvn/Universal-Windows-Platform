@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Assignment1.Models;
 using System.Windows;
+using Windows.UI.Popups;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -74,6 +75,22 @@ namespace Assignment1.Pages
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             App.Current.Exit();
+
+        }
+
+        private void FacebookBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(typeof(Pages.social.facebook));
+        }
+
+        private void TwitterBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(typeof(Pages.social.twitter));
+        }
+
+        private void InstagramBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(typeof(Pages.social.instagram));
         }
     }
 }

@@ -35,22 +35,23 @@
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
+
                         <Image x:Name="logo1" Grid.Column="0" HorizontalAlignment="Left" Height="100" Margin="65,22,0,0" VerticalAlignment="Top" Width="87" FocusVisualPrimaryBrush="#FFFF2D2D" Source="/Assets/clipart1332451.png" FocusVisualSecondaryBrush="#99EE2020" Grid.ColumnSpan="2"/>
                         <TextBlock x:Name="ResName" Grid.Column="0" HorizontalAlignment="Left" Margin="54,125,0,0" Text="Fast Food" Foreground="White" TextWrapping="Wrap" VerticalAlignment="Top"  FontSize="24" FontWeight="Bold" FontFamily="Century Gothic" AllowDrop="True" Width="117" Grid.ColumnSpan="2" Height="29"/>
                         <TextBlock Grid.Column="0" HorizontalAlignment="Left" Margin="54,152,0,0" Text="Restaurant" Foreground="White" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="24" FontWeight="Light" Width="119"  Grid.ColumnSpan="2" Height="32"/>
                         <TextBlock x:Name="Head" Text="Fast Foods Restautant" Grid.Column="1" HorizontalAlignment="Left" Margin="20,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" FontFamily="Century Gothic" Width="484" Height="44"/>
                         <StackPanel Orientation="Horizontal" Grid.Column="2" Margin="0,40,0,0">
-                            <AppBarButton x:Name="FacebookBtn" Label="Facebook" Style="{StaticResource AppBarButtonRevealStyle}">
+                            <AppBarButton x:Name="FacebookBtn" Click="FacebookBtn_Click" Label="Facebook" Style="{StaticResource AppBarButtonRevealStyle}">
                                 <AppBarButton.Icon>
                                     <BitmapIcon UriSource="/Assets/facebook_64px.png"/>
                                 </AppBarButton.Icon>
                             </AppBarButton>
-                            <AppBarButton x:Name="TwitterBtn" Label="Twitter" Style="{StaticResource AppBarButtonRevealStyle}">
+                            <AppBarButton x:Name="TwitterBtn" Click="TwitterBtn_Click" Label="Twitter" Style="{StaticResource AppBarButtonRevealStyle}">
                                 <AppBarButton.Icon>
                                     <BitmapIcon UriSource="/Assets/twitter_24px.png"/>
                                 </AppBarButton.Icon>
                             </AppBarButton>
-                            <AppBarButton x:Name="InstagramBtn" Label="Instagram" Style="{StaticResource AppBarButtonRevealStyle}">
+                            <AppBarButton x:Name="InstagramBtn" Click="InstagramBtn_Click" Label="Instagram" Style="{StaticResource AppBarButtonRevealStyle}">
                                 <AppBarButton.Icon>
                                     <BitmapIcon UriSource="/Assets/instagram_old_32px.png"/>
                                 </AppBarButton.Icon>
@@ -58,7 +59,15 @@
                             <AppBarButton x:Name="CartBtn" Label="Cart" Icon="Shop" Style="{StaticResource AppBarButtonRevealStyle}">
 
                             </AppBarButton>
-                            <AppBarButton x:Name="SettingBtn" Label="Setting" Icon="Setting" Style="{StaticResource AppBarButtonRevealStyle}"/>
+                            <AppBarButton x:Name="SettingBtn" Label="Setting" Icon="Setting" Style="{StaticResource AppBarButtonRevealStyle}">
+                                <AppBarButton.Flyout>
+                                    <MenuFlyout>
+                                        <MenuFlyoutItem Text="By rating"/>
+                                        <MenuFlyoutItem Text="By match"/>
+                                        <MenuFlyoutItem Text="By distance"/>
+                                    </MenuFlyout>
+                                </AppBarButton.Flyout>
+                            </AppBarButton>
                             <AppBarButton x:Name="QuitBtn" Label="Quit" Style="{StaticResource AppBarButtonRevealStyle}">
                                 <AppBarButton.Icon>
                                     <BitmapIcon UriSource="/Assets/shutdown_32px.png"/>

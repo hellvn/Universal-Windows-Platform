@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Universal Windows Platform\\UWP-Practical-1\\UWP-Practical-1.csproj": {}
+    "D:\\UWP\\Universal-Windows-Platform\\UWP-Practical-1\\UWP-Practical-1.csproj": {}
   },
   "projects": {
-    "E:\\Universal Windows Platform\\UWP-Practical-1\\UWP-Practical-1.csproj": {
+    "D:\\UWP\\Universal-Windows-Platform\\UWP-Practical-1\\UWP-Practical-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Universal Windows Platform\\UWP-Practical-1\\UWP-Practical-1.csproj",
+        "projectUniqueName": "D:\\UWP\\Universal-Windows-Platform\\UWP-Practical-1\\UWP-Practical-1.csproj",
         "projectName": "UWP-Practical-1",
-        "projectPath": "E:\\Universal Windows Platform\\UWP-Practical-1\\UWP-Practical-1.csproj",
-        "packagesPath": "C:\\Users\\Vuong\\.nuget\\packages\\",
-        "outputPath": "E:\\Universal Windows Platform\\UWP-Practical-1\\obj\\",
+        "projectPath": "D:\\UWP\\Universal-Windows-Platform\\UWP-Practical-1\\UWP-Practical-1.csproj",
+        "packagesPath": "C:\\Users\\vuong\\.nuget\\packages\\",
+        "outputPath": "D:\\UWP\\Universal-Windows-Platform\\UWP-Practical-1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

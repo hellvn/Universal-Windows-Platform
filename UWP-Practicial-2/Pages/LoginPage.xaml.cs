@@ -26,15 +26,13 @@ namespace UWP_Practicial_2.Pages
         public LoginPage()
         {
             this.InitializeComponent();
-        }
-
-        private void Regist(object sender, RoutedEventArgs e)
-        {
             
+
         }
 
-        private void loginbtn_Click(object sender, RoutedEventArgs e)
+        private async void loginbtn_Click(object sender, RoutedEventArgs e)
         {
+            alert.Text = "Sorry! this function is not available now";
 
         }
 

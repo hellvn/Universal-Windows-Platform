@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\Universal Windows Platform\UWP-Practicial-2\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-06-14T19:33:27.817</Modified>
+      <Modified>2021-06-14T20:23:05.620</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\Universal Windows Platform\UWP-Practicial-2\bin\x86\Debug\UWP-Practicial-2.exe">
       <PackagePath>entrypoint\UWP-Practicial-2.exe</PackagePath>
-      <Modified>2021-06-14T19:33:27.289</Modified>
+      <Modified>2021-06-14T20:23:04.832</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -102,23 +102,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Universal Windows Platform\UWP-Practicial-2\bin\x86\Debug\UWP-Practicial-2.xr.xml">
       <PackagePath>UWP-Practicial-2.xr.xml</PackagePath>
-      <Modified>2021-06-14T19:24:09.086</Modified>
+      <Modified>2021-06-14T19:53:38.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Universal Windows Platform\UWP-Practicial-2\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-06-14T19:31:31.884</Modified>
+      <Modified>2021-06-14T20:23:04.778</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Universal Windows Platform\UWP-Practicial-2\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-06-14T19:31:31.884</Modified>
+      <Modified>2021-06-14T20:23:04.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Universal Windows Platform\UWP-Practicial-2\bin\x86\Debug\Pages\LoginPage.xbf">
       <PackagePath>Pages\LoginPage.xbf</PackagePath>
-      <Modified>2021-06-14T19:31:31.884</Modified>
+      <Modified>2021-06-14T20:23:04.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Universal Windows Platform\UWP-Practicial-2\bin\x86\Debug\Pages\RegistPage.xbf">
       <PackagePath>Pages\RegistPage.xbf</PackagePath>
-      <Modified>2021-06-14T19:31:31.884</Modified>
+      <Modified>2021-06-14T20:23:04.779</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -126,11 +126,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Universal Windows Platform\UWP-Practicial-2\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-06-14T19:24:09.496</Modified>
+      <Modified>2021-06-14T19:53:38.794</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Universal Windows Platform\UWP-Practicial-2\bin\x86\Debug\Core\UWP-Practicial-2.exe">
       <PackagePath>UWP-Practicial-2.exe</PackagePath>
-      <Modified>2021-06-14T19:33:27.815</Modified>
+      <Modified>2021-06-14T20:23:05.618</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

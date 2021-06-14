@@ -47,13 +47,23 @@ namespace UWP_Practicial_2.Pages
             var newPass = PasswordInput.Password;
             Users NewUsers = new Users(newUser, newPass);
             Register register = new Register();
-            register.Regist(NewUsers);
+            //register.Regist(NewUsers);
+            if (register.Regist(NewUsers))
+            {
+                this.Frame.Navigate(typeof(Pages.LoginPage));
+                alert.Text = "Registralation successfully!";
+            }
+            else
+            {
+                alert.Text = "Registralation failed!";
+            }
+            
 
         }
 
         private void UsernameInput_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (UsernameInput.Text == "Admin")
+            if (UsernameInput.Text == "Admin" || UsernameInput.Text == "admin")
             {
                 alert.Text = "Please choose another user name!";
             }
@@ -61,11 +71,6 @@ namespace UWP_Practicial_2.Pages
             {
                 alert.Text = string.Empty;
             }
-        }
-
-        private void PasswordInput_PasswordChanged(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

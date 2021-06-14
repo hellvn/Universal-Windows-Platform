@@ -39,5 +39,11 @@ namespace Assignment1.Pages
                 HomeItems.ItemsSource = home.data;
             }
         }
+
+        
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Pages.Detail));
+        }
     }
 }

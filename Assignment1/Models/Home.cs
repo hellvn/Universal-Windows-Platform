@@ -9,9 +9,31 @@ namespace Assignment1.Models
     class Home
     {
         public string message { get; set; }
-        public List<HomeItem> data { get; set; }
+        public List<Food> data { get; set; }
     }
-    class HomeItem
+    class FoodDetail
+    {
+        public string message { get; set; }
+        public Food data { get; set; }
+    }
+    class Category
+    {
+        public string message { get; set; }
+        public CatData data { get; set; }
+
+    }
+    class Catitem
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string icon { get; set; }
+    }
+    class CatData
+    {
+        public Catitem category { get; set; }
+        public List<Food> foods { get; set; }
+    }
+    class Food
     {
         public int id { get; set; }
         public string name { get; set; }

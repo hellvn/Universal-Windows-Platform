@@ -31,12 +31,12 @@ namespace Assignment1.Adapters
 
         public string GetCategoryApi
         {
-            get => String.Format(baseURL + "/api/category/1");
+            get => String.Format(baseURL + "/api/category/");
         }
 
         public string GetDetailApi
         {
-            get => String.Format(baseURL + "/api/food/1");
+            get => String.Format(baseURL + "/api/food/");
         }
     }
 }

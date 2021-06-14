@@ -26,14 +26,14 @@ namespace UWP_Practicial_2.Adapters
         {
 
             sQLiteConnection = new SQLiteConnection(dbName);
-            CreateCartTable();
+            CreateUsersTable();
         }
 
         public SQLiteConnection sQLiteConnection { get; private set; }
 
-        public void CreateCartTable()
+        public void CreateUsersTable()
         {
-            var sql_txt = @"CREATE TABLE IF NOT EXISTS User(id integer primary key, username varchar(200), password varchar(200))";
+            var sql_txt = @"CREATE TABLE IF NOT EXISTS User(id integer primary key AUTOINCREMENT, username varchar(200), password varchar(200))";
             var statement = sQLiteConnection.Prepare(sql_txt);
             statement.Step();
         }

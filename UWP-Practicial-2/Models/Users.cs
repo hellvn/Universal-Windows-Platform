@@ -8,14 +8,18 @@ namespace UWP_Practicial_2.Models
 {
     class Users
     {
+        
         private string username;
         private string passord;
 
         public Users(string username, string password)
         {
+           
             Username = username;
             Password = password;
         }
+
+        
 
         public string Username // properties
         {

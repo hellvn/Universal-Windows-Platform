@@ -20,7 +20,7 @@
 
         <Border Grid.Row="0" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-            <TextBlock x:ConnectionId='6' Name="Login" Text="Login"  
+            <TextBlock x:ConnectionId='8' Name="Login" Text="Login"  
             TextAlignment="Center" FontSize="30"  
             FontWeight="ExtraBlack" Margin="0,50,0,0"></TextBlock>
 
@@ -28,23 +28,23 @@
 
         <StackPanel x:ConnectionId='2' x:Name="stackone" Grid.Row="1">
 
-            <TextBox PlaceholderText="Enter Username" Width="300"  
+            <TextBox x:ConnectionId='3' x:Name="UsernameInput" PlaceholderText="Enter Username" Width="300"  
             Margin="0,50,0,0"></TextBox>
 
-            <PasswordBox PlaceholderText="Enter Password"  
+            <PasswordBox x:ConnectionId='4' x:Name="PasswordInput" PlaceholderText="Enter Password"  
             Width="300" Margin="0,10,0,0"></PasswordBox>
 
-            <TextBlock x:ConnectionId='3' x:Name="alert" Text="jklhsadfklj" Foreground="Red" Margin="0,10,0,0"/>
+            <TextBlock x:ConnectionId='5' x:Name="alert" Width="300" Foreground="Red" Margin="0,10,0,0"/>
 
             <RelativePanel HorizontalAlignment="Center"  
             Margin="0,10,0,0">
 
-                <Button x:ConnectionId='4' x:Name="loginbtn" Content="Login"  
-                Height="35" Width="65"></Button>
+                <Button x:ConnectionId='6' x:Name="loginbtn" Content="Login"  
+                Height="35" Width="70"                       ></Button>
 
-                <Button x:ConnectionId='5' x:Name="cancelbtn" Content="Cancel"  
-                Height="35" Width="65" Margin="10,0,0,0"  
-                RelativePanel.RightOf="loginbtn"></Button>
+                <Button x:ConnectionId='7' x:Name="registbtn" Content="Register"  
+                Height="35" Width="70" Margin="10,0,0,0"  
+                RelativePanel.RightOf="loginbtn"                        ></Button>
 
             </RelativePanel>
 

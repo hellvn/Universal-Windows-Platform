@@ -40,9 +40,7 @@ namespace UWP_Practicial_2.Pages
 
         private void registbtn_Click(object sender, RoutedEventArgs e)
         {
-            string username = UsernameInput.Text;
-            string password = PasswordInput.Text
-            Users users = new Users();
+            this.Frame.Navigate(typeof(Pages.RegistPage));
 
         }
     }

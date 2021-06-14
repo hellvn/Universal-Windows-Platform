@@ -32,7 +32,7 @@ namespace UWP_Practicial_2.Pages
 
         private async void loginbtn_Click(object sender, RoutedEventArgs e)
         {
-            alert.Text = "Sorry! this function is not available now";
+            alert.Text = "Sorry! this function is not available right now";
 
         }
 

@@ -68,3 +68,36 @@ D:\UWP\Universal-Windows-Platform\Lab3\obj\x86\Debug\Pages\Customer.xbf
 D:\UWP\Universal-Windows-Platform\Lab3\obj\x86\Debug\Pages\Home.xbf
 D:\UWP\Universal-Windows-Platform\Lab3\obj\x86\Debug\Pages\Layout.xbf
 D:\UWP\Universal-Windows-Platform\Lab3\obj\x86\Debug\Pages\Mail.xbf
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Lab3.csprojAssemblyReference.cache
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\App.g.i.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\App.g.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\MainPage.g.i.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\MainPage.g.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Contact.g.i.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Contact.g.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Customer.g.i.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Customer.g.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Home.g.i.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Home.g.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Layout.g.i.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Layout.g.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Mail.g.i.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Mail.g.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\XamlTypeInfo.g.cs
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\App.xaml
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\MainPage.xaml
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Contact.xaml
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Customer.xaml
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Home.xaml
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Layout.xaml
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Mail.xaml
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\App.xbf
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\MainPage.xbf
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Contact.xbf
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Customer.xbf
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Home.xbf
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Layout.xbf
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Pages\Mail.xbf
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\XamlSaveStateFile.xml
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Lab3.exe
+E:\Universal Windows Platform\Lab3\obj\x86\Debug\Lab3.pdb
